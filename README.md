@@ -11,7 +11,7 @@ A customized Telegram client and relay server that can receive HMS Push Notifica
 5. Follow the official tutorial of Google Firebase to create APP and integrate Firebase into your APP. Remember to replace the dummy google-services.json under TMessagesProj/ directory with your own one and add the given code inside the correct build.gradle files.
 6. Use any approach you like to acquire the HMS PushToken of your Huawei Device. In this client I have implemented one possible approach in the ApplicationLoader.java file, named getToken(), FYR. 
 7. Choose a proper build variant and then build the project and test it on your Huawei Device.
-#### Relay Server
+#### Relay Server (in telepy/ directory)
 The relay server is written with Python, and some code are copied from [hms-push-serverdemo-python](https://github.com/HMS-Core/hms-push-serverdemo-python/tree/master/python37). Its design rationale is receiving the incoming message via the MTProto API of Telegram then pushing the message to your Huawei Phone. Here I use [Telethon](https://github.com/LonamiWebs/Telethon) to implement above operations.  
 In order to run the server, please follow these steps:
 1. Install Telethon and any required dependencies using your package management tools.
