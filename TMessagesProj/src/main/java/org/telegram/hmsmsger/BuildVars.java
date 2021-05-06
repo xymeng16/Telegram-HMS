@@ -20,8 +20,8 @@ public class BuildVars {
     public static boolean CHECK_UPDATES = true;
     public static int BUILD_VERSION = 2293;
     public static String BUILD_VERSION_STRING = "7.7.0";
-    public static int APP_ID = 2376940;
-    public static String APP_HASH = "643e1c932ec626e5fad77b6239eb7001";
+    public static int APP_ID = 0000000; // Replace with your own APP_ID
+    public static String APP_HASH = "Replace with your own APP_HASH";
     public static String APPCENTER_HASH = "a5b5c4f5-51da-dedc-9918-d9766a22ca7c";
     public static String APPCENTER_HASH_DEBUG = "f9726602-67c9-48d2-b5d0-4761f1c1a8f3";
     //
